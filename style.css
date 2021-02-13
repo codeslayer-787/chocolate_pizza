@@ -9,6 +9,12 @@ header{
   margin: 80px 0 0 0;
   height: 150px;
 }
+#titleOne {
+  font-family: 'Satisfy', cursive;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 40px;
+}
 
 #heading{
   padding: 0;
@@ -20,6 +26,7 @@ nav li{
   float: right;
   margin: 1px;
   list-style: none;
+  position: relative;
   
 }
 #rss {
@@ -28,9 +35,13 @@ nav li{
 }
 
 #greyBar{
-  margin-top: 100px;
+  margin-top: 40px;
   background-color: rgb(209, 205, 205);
   height: 10px;
+}
+#titleBar{
+  font-size: xx-large;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #print {
@@ -52,10 +63,73 @@ h3 p {
 #subHeading {
   float: left;
 }
-  
-
-/* div{
-  display: flex;
-
-  /* float :  */
-/* } */ 
+#colOne{
+  float: left;  
+  position: absolute;
+  margin-left: 75px;
+  margin-top: 50px;
+  z-index: 10;
+  line-height: 1.6;
+  font-family: cursive;
+}
+#colTwo{
+  float: right;
+  position: relative;
+  z-index: 10;
+  margin-right: 150px;
+  margin-top: 50px;
+  line-height: 1.6;
+  font-family: cursive;
+}
+#recipeImg{
+  position: absolute;
+  z-index: 1;
+}
+#greyBar2{
+  margin-top: 40px;
+  background-color: rgb(209, 205, 205);
+  height: 10px;
+  position: relative;
+  margin-top: 350px;
+}
+button{
+  background-color: rgb(223, 103, 60);
+  height: 40px;
+  width: 160px;
+  color: white;
+  border: none;
+  float: right;
+  position:unset;
+}
+#Van{
+  float: left;
+}
+footer h4{
+  font-weight: bold;
+  font-size:large;
+  margin-left: 90px;
+  margin-top: 10px;
+}
+footer p{
+  margin-left: 90px;
+  margin-top: 10px;
+}
+#greyBar3{
+  margin-top: 10px;
+  background-color: rgb(209, 205, 205);
+  height: 2px;
+  position: relative;
+  margin-top: 80px;
+  text-align: center;
+}
+#smallLogo{
+  align-content: center;
+  position: relative;
+  margin-bottom: 10px;
+}
+#copyRight{
+text-align: center;
+margin-top: 50px;
+margin-right: 90px;
+color: gray;
+}
